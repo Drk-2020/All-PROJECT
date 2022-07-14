@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Data Table With Row Selection">
+        <lightning-button variant="brand"
+                          label={showlabel}
+                          onclick={handleClick}>
+        </lightning-button>
+</lightning-card>
+        <template if:true={isVisible}>
+            <lightning-datatable
+            data={data}
+            columns={columns}
+            key-field="id"
+            onrowselection={getSelectedrows}>
+        </lightning-datatable>
+
+</template>
+    
+</template>
