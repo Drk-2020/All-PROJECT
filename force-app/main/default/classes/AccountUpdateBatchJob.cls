@@ -23,7 +23,6 @@ global class AccountUpdateBatchJob implements Database.Batchable<sObject>
     }
 
     global void finish(Database.BatchableContext BC) {
-        System.debug('Asys');
 
     }
 

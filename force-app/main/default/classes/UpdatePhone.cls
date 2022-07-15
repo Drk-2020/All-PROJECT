@@ -7,6 +7,5 @@ public class UpdatePhone {
         a.Phone = '123456';
     }
         update ac;
-       System.debug()
    }
 }
