@@ -1,0 +1,14 @@
+<template>
+    
+    <div style="font-size:15px;font-weight:bold" class="slds-col slds-p-right_small slds-size_1-of-6">
+    <lightning-combobox
+            name="Select by Year"
+            label=""
+            value={value}
+            placeholder="Select by year"
+            options={options}
+            onchange={handleChange} ></lightning-combobox>
+    </div>        
+ 
+    <p>Selected value is: {value}</p>
+</template>
